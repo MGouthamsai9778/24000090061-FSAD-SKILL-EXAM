@@ -53,4 +53,17 @@
             <version>1.7.36</version>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.1.0</version>
+                <configuration>
+                    <mainClass>com.klef.fsad.exam.ClientDemo</mainClass>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
